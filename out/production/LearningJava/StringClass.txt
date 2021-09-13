@@ -1,0 +1,4 @@
+
+
+to convert any datatype the applied method is Object.toString(convertThis);
+StringBuilder string = new StringBuilder() is used to create a buildable string
