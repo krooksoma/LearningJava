@@ -1,4 +1,4 @@
-package FactoryPattern;
+package FactoryPattern.PizzaStore;
 
 import java.util.ArrayList;
 
