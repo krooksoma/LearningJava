@@ -1,18 +1,25 @@
 public class Student {
-    String firstName, lastName, major;
-    int yearGraduation;
-    double GPA;
+    private String name;
+    private double balance;
 
-    public Student(String firstName, String lastName, int yearGraduation, double GPA, String major){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.yearGraduation = yearGraduation;
-        this.GPA = GPA;
-        this.major = major;
+    public Student(String name, double balance) {
+        this.name = name;
+        this.balance = balance;
     }
 
-    public int yearOfGraduation(){
-        this.yearGraduation++;
-        return this.yearGraduation;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 }
