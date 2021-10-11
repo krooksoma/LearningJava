@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class Link {
     public long dData;
     public Link next;

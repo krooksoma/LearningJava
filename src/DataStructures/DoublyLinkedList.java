@@ -1,3 +1,5 @@
+package DataStructures;
+
 import javax.swing.*;
 
 public class DoublyLinkedList {
@@ -23,7 +25,7 @@ public class DoublyLinkedList {
             first.previous = newLink;
 //        changes the next field in the new link to point to the old first
         newLink.next = first;
-//        sets the first to point to the new Link
+//        sets the first to point to the new DataStructures.Link
         first = newLink;
     }
 
@@ -37,7 +39,7 @@ public class DoublyLinkedList {
 //            new link points to the old last
             newLink.previous = last;
         }
-//        new Link points to the next
+//        new DataStructures.Link points to the next
         last = newLink;
     }
 
@@ -145,7 +147,7 @@ public class DoublyLinkedList {
     }
 }
 /*
-*     DoublyLinkedList theList = new DoublyLinkedList();
+*     DataStructures.DoublyLinkedList theList = new DataStructures.DoublyLinkedList();
 
     theList.insertFirst(25);
     theList.insertFirst(33);

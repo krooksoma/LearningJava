@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class MergeSort {
     private long[] theArray;
     private int nElems;

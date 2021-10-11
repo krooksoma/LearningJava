@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class InsertSort {
     private long[] a;
     private int nElems;

@@ -1,3 +1,4 @@
+package DataStructures;
 
 public class BinarySearchTree {
     private TreeNode root;
@@ -35,8 +36,8 @@ public class BinarySearchTree {
     }
 
 //    public void delete(Integer data){
-//        TreeNode current = this.root;
-//        TreeNode parent = this.root;
+//        DataStructures.TreeNode current = this.root;
+//        DataStructures.TreeNode parent = this.root;
 //        boolean isLeftChild = false;
 //
 //        if(current == null){

@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class Triangle {
     double base, height, sideOne, sideTwo, sideThree;
 

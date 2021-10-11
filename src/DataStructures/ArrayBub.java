@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class ArrayBub {
     private long[] a;
     private int nElems;

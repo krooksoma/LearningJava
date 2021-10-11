@@ -1,0 +1,1 @@
+Interfaces are used to create a common behavior(blueprint) for a class

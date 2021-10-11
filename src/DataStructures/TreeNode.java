@@ -1,4 +1,4 @@
-import com.sun.source.tree.Tree;
+package DataStructures;
 
 public class TreeNode {
     private Integer data;
