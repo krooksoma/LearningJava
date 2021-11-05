@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Main {
 //    initializes an Arraylist of albums to add all albums
-    private static ArrayList<Album> albums = new ArrayList<Album>();
+    private static List<Album> albums = new ArrayList<Album>();
 
     public static void main(String[] args) {
        Album rockAlbum = new Album("Rock Album", "Deep Purple");
@@ -26,7 +26,7 @@ public class Main {
        albums.add(rockAlbum);
 
 //       creating a linkedlist playlist to add the songs to
-       LinkedList<Song> playlist = new LinkedList<Song>();
+       List<Song> playlist = new ArrayList<Song>();
 //     albums.get(0) is fetching the first album(and its songs) in the albums Arraylist
 //     albums.get(1)  is fetching the second album(and its songs) that was added in the albums ArrayList
 //    you need to add a song tha was first added to the album and the name must match the song name
@@ -38,7 +38,7 @@ public class Main {
       play(playlist);
     }
 
-    private static void play(LinkedList<Song> playlist){
+    private static void play(List<Song> playlist){
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
         boolean forward = true;

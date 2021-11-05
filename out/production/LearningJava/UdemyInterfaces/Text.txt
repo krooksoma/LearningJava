@@ -1,1 +1,26 @@
 Interfaces are used to create a common behavior(blueprint) for a class
+
+import UdemyInterfaces.Deskphone;
+import UdemyInterfaces.ITelephone;
+import UdemyInterfaces.MobilePhone;
+
+public class Main {
+
+
+    public static void main(String[] args) {
+        ITelephone myPhone;
+        myPhone = new Deskphone(2344323);
+
+        myPhone.powerOn();
+        myPhone.callPhone(2344323);
+        myPhone.answerCall();
+        myPhone.isRinging();
+
+        myPhone = new MobilePhone(23456);
+        myPhone.powerOn();
+        myPhone.dial(23456);
+        myPhone.callPhone(23456);
+        myPhone.answerCall();
+    }
+
+}
